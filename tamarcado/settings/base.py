@@ -170,3 +170,5 @@ REST_FRAMEWORK = {
         'rest_framework.renderers.JSONRenderer',
     ),
 }
+
+ROOT_URLCONF = 'tamarcado.urls'
