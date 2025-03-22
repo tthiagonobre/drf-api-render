@@ -171,4 +171,3 @@ REST_FRAMEWORK = {
     ),
 }
 
-ROOT_URLCONF = 'tamarcado.urls'

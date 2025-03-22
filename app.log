@@ -6,3 +6,5 @@ INFO 2025-03-13 15:22:50,704 autoreload Watching for file changes with StatReloa
 INFO 2025-03-13 15:24:26,282 wasyncore Serving on http://0.0.0.0:8000
 INFO 2025-03-14 00:18:02,958 autoreload C:\Users\Thiago\OneDrive\Área de Trabalho\Py-Django\dfr-api\tamarcado\settings\base.py changed, reloading.
 INFO 2025-03-14 00:18:06,684 autoreload Watching for file changes with StatReloader
+INFO 2025-03-14 00:27:26,826 autoreload C:\Users\Thiago\OneDrive\Área de Trabalho\Py-Django\dfr-api\tamarcado\settings\base.py changed, reloading.
+INFO 2025-03-14 00:27:27,610 autoreload Watching for file changes with StatReloader
