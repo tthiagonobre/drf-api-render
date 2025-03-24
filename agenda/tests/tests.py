@@ -277,7 +277,7 @@ class TestGetHorario(APITestCase):
     @mock.patch("agenda.libs.brasil_api.is_feriado", return_value=False)
     def test_quando_data_e_dia_comum_lista_com_horarios(self, _):
         response = self.client.get("/api/horarios/?data=2026-12-20")
-        horarios = [datetime.fromisoformat(h) for h in response.json()] # Converte str em datetime
+        horarios = [datetime.fromisoformat(h.replace("Z", "+00:00")) for h in response.json()]
         
         self.assertNotEqual(response.json(), [])
         self.assertEqual(horarios[0], datetime(2026, 12, 20, 9, tzinfo=timezone.utc))
